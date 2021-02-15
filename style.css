@@ -3,14 +3,6 @@
                 ****** RESET ******
     ==============================================
 */
-body {
-  margin: 0;
-}
-
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
 
 *,
 *::before,
@@ -20,6 +12,15 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  color: #333;
 }
 
 ul {
@@ -28,7 +29,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
