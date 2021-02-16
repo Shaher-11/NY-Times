@@ -42,6 +42,10 @@ a:hover {
     ==============================================
 */
 
+.fav-icon {
+  color: #fff;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
