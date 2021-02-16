@@ -206,3 +206,8 @@ main {
   top: calc(24.8264% * 3);
   left: calc(25.5619% * 3);
 }
+
+#center-vid {
+  display: flex;
+  justify-content: center;
+}
