@@ -254,3 +254,12 @@ main {
   display: flex;
   justify-content: center;
 }
+
+.my-side {
+  width: 20%;
+  padding-left: 25px;
+  float: right;
+  font-style: italic;
+  margin-left: 5rem;
+  color: rgb(80, 65, 65);
+}
