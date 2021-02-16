@@ -73,6 +73,7 @@ button {
 .hero-header {
   font-family: 'Great Vibes', cursive, sans-serif;
   font-size: 2rem;
+  font-weight: 800;
 }
 
 /*
@@ -80,3 +81,26 @@ button {
                 ****** First section styling ******
     ==============================================
 */
+main {
+  margin: auto;
+  width: 60%;
+  padding-top: 7rem;
+}
+
+.social-link {
+  padding: 2rem;
+  border-top: 1px solid #f8e9e9;
+  text-align: center;
+}
+
+.social-link > ul > li {
+  display: inline;
+  color: rgb(117, 115, 115);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.headline {
+  text-align: center;
+  font-size: 3rem;
+}
