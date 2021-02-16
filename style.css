@@ -38,6 +38,41 @@ a:hover {
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** Nav Bar styling ******
+    ==============================================
+*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.my-icons,
+.my-bottuns {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(18, 79, 114);
+  color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.hero-header {
+  font-family: 'Great Vibes', cursive, sans-serif;
+  font-size: 2rem;
+}
+
+/*
+    ==============================================
+                ****** First section styling ******
     ==============================================
 */
