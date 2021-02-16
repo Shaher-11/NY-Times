@@ -67,9 +67,13 @@ nav {
 }
 
 button {
-  background-color: rgb(18, 79, 114);
+  background-color: rgb(20, 97, 141);
   color: whitesmoke;
   padding: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(7, 96, 230);
 }
 
 .hero-header {
@@ -208,6 +212,45 @@ main {
 }
 
 #center-vid {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-header {
+  font-family: 'Great Vibes', cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 7rem;
+  border-top: 3px solid rgb(243, 235, 235);
+  padding-top: 1rem;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+  width: 20%;
+  margin-left: 6rem;
+}
+
+.my-footer {
+  border-bottom: 3px solid rgb(12, 11, 11);
+}
+
+.buttom-footer {
+  display: inline;
+  font-style: italic;
+  font-size: 0.7rem;
+  margin-left: 5rem;
+}
+
+.last-link {
   display: flex;
   justify-content: center;
 }
