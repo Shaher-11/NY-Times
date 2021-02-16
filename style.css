@@ -104,7 +104,7 @@ main {
 
 .headline {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .hero-img {
@@ -123,6 +123,7 @@ main {
 .credit {
   font-style: italic;
   font-size: 0.8rem;
+  line-height: 0.9rem;
 }
 
 .name {
