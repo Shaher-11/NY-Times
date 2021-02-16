@@ -21,6 +21,8 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
   color: #333;
+  line-height: 1.7rem;
+  font-size: large;
 }
 
 ul {
@@ -130,4 +132,5 @@ main {
 .auther-date,
 .para {
   margin-left: 12rem;
+  width: 60%;
 }
