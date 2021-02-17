@@ -4,23 +4,21 @@
     ==============================================
 */
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
 }
 
 body {
   margin: 0 auto;
   overflow-x: hidden;
   color: #333;
+  line-height: 1.7rem;
+  font-size: large;
 }
 
 ul {
@@ -29,6 +27,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #333;
 }
 
 a:hover {
@@ -37,6 +36,244 @@ a:hover {
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** Nav Bar styling ******
     ==============================================
 */
+
+.fav-icon {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  padding-bottom: 2.6rem;
+  padding-top: 3rem;
+}
+
+.my-icons,
+.my-bottuns {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(20, 97, 141);
+  color: whitesmoke;
+  padding: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(7, 96, 230);
+}
+
+.hero-header {
+  font-family: 'Great Vibes', cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/*
+    ==============================================
+                ****** First section styling ******
+    ==============================================
+*/
+main {
+  margin: auto;
+  width: 60%;
+  padding-top: 7rem;
+}
+
+.social-link {
+  padding: 2rem;
+  border-top: 1px solid #f8e9e9;
+  text-align: center;
+}
+
+.social-link > ul > li {
+  display: inline;
+  color: rgb(117, 115, 115);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.headline {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 120%;
+  font-style: italic;
+}
+
+.hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+}
+
+.caption,
+.date {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.credit {
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.auther-date,
+.para {
+  margin-left: 12rem;
+  width: 60%;
+}
+
+.my-para {
+  width: 40%;
+  margin-left: 34.5rem;
+}
+
+/*
+    ==============================================
+                ****** inflation section styling ******
+    ==============================================
+*/
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 945px;
+  line-height: 1.3;
+}
+
+.inflation_img {
+  position: relative;
+  font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+}
+
+.inflation_img img {
+  position: relative;
+  width: 100%;
+}
+
+.inflation_img .sub-image-desc {
+  position: absolute;
+  width: 228px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.inflation_img .sub-image-title {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.sub-image-desc.sub-image_01 {
+  top: 24.8264%;
+}
+
+.sub-image-desc.sub-image_02 {
+  top: 24.8264%;
+  left: 25.5619%;
+}
+
+.sub-image-desc.sub-image_03 {
+  top: 24.8264%;
+  left: calc(25.5619% * 2);
+}
+
+.sub-image-desc.sub-image_04 {
+  top: 24.8264%;
+  left: calc(25.5619% * 3);
+}
+
+.sub-image-desc.sub-image_05 {
+  top: calc(24.8264% * 3);
+}
+
+.sub-image-desc.sub-image_06 {
+  top: calc(24.8264% * 3);
+  left: 25.5619%;
+}
+
+.sub-image-desc.sub-image_07 {
+  top: calc(24.8264% * 3);
+  left: calc(25.5619% * 2);
+}
+
+.sub-image-desc.sub-image_08 {
+  top: calc(24.8264% * 3);
+  left: calc(25.5619% * 3);
+}
+
+#center-vid {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/*
+    ==============================================
+                ****** Footer styling ******
+    ==============================================
+*/
+
+.footer-header {
+  font-family: 'Great Vibes', cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 7rem;
+  border-top: 3px solid rgb(243, 235, 235);
+  padding-top: 1rem;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+  width: 20%;
+  margin-left: 6rem;
+}
+
+.base-footer {
+  border-bottom: 3px solid rgb(12, 11, 11);
+}
+
+.buttom-footer {
+  display: inline;
+  font-style: italic;
+  font-size: 0.7rem;
+  margin-left: 5rem;
+}
+
+.last-link {
+  display: flex;
+  justify-content: center;
+}
+
+.my-side {
+  width: 20%;
+  padding-left: 25px;
+  float: right;
+  font-style: italic;
+  margin-left: 5rem;
+  color: rgb(80, 65, 65);
+}
