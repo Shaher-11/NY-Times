@@ -4,17 +4,13 @@
     ==============================================
 */
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
 }
 
 body {
@@ -142,6 +138,11 @@ main {
   width: 60%;
 }
 
+/*
+    ==============================================
+                ****** inflation section styling ******
+    ==============================================
+*/
 .wrapper {
   max-width: 100%;
   margin: 0 auto;
@@ -221,6 +222,12 @@ main {
   flex-direction: row;
 }
 
+/*
+    ==============================================
+                ****** Footer styling ******
+    ==============================================
+*/
+
 .footer-header {
   font-family: 'Great Vibes', cursive, sans-serif;
   font-size: 2rem;
@@ -239,7 +246,7 @@ main {
   margin-left: 6rem;
 }
 
-.my-footer {
+.base-footer {
   border-bottom: 3px solid rgb(12, 11, 11);
 }
 
