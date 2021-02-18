@@ -283,3 +283,42 @@ main {
                 ****** form ******
     ==============================================
 */
+
+.item {
+  padding: 0.7rem;
+  width: 100%;
+}
+
+.btn {
+  margin-left: 25rem;
+  padding-top: 1rem;
+}
+
+input[type=submit] {
+  width: 6rem;
+  height: 3rem;
+  background-color: rgb(20, 97, 141);
+  border-radius: 1rem;
+  color: aliceblue;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(5, 72, 196, 0.733);
+}
+
+.items {
+  padding: 1rem;
+}
+
+input[type=text],
+input[type=email] {
+  width: 35rem;
+  height: 2.2rem;
+  border: 1.5px solid rgb(163, 158, 158);
+}
+
+.my-comment {
+  width: 98%;
+  height: 12rem;
+  border: 1.5px solid rgb(163, 158, 158);
+}
