@@ -474,13 +474,42 @@ Confirming inflation would mean that the universe we see, extending 14 billion l
 
 
 
-<form action="#" method="POST" id="my-form">
+<form action="#" method="POST" id="my-form" class="para">
 
+  <ul class="para">
 
-
+    <li class="para">
+<label>Name:</label>
+<input type="text" name="name" placeholder="Enter your name" maxlength="20" required>
+</li>
+<li class="para">
+  <label>Email:</label>
+  <input type="email" name="email" placeholder="Enter your Email" maxlength="20" required>
+  </li>
+  <li class="para">
+    <label>Comment:</label>
+    <textarea name="comment" cols="30" rows="8" placeholder="Type your comment here…" maxlength="250" required></textarea>
+    </li>
+    <li class="para">
+      <label>What is your overall opinion about this article?</label>
+      </li>
+      <li class="para"> 
+        <input type="radio" name="question" value="Positive" checked> Positive
+        <input type="radio" name="question" value="Negative"> Negative
+        <input type="radio" name="question" value="Neutral"> nNeutral
+      </li>
+      <li class="para">
+        <label>I want to subscribe to the newsletter</label>
+          <input type="checkbox" name="subscribe" value="subscribe" checked>
+      </li>
+      <li class="para btn">
+        <input type="submit" name="submit" value="Send">
+      </li>
+</ul>
 
 </form>
-
+<br>
+<br>
 <!--   FOOTER  -->
 
 <footer>
