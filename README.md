@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/NY-Times-clone-blueviolet)
+![](https://img.shields.io/badge/NY-Times-cloneblueviolet)
 
 # New York Times clone 
 
