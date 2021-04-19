@@ -2,7 +2,7 @@
 
 # New York Times clone 
 
-> This is a clone of the new york times website built purely with html and css and has a good usage of flex box and semantic html.
+> This is a clone of the new york times website built purely with HTML and CSS and has good usage of flex box and semantic HTML. 
 
 ![screenshot](assets/project-screenshot.png)
 
